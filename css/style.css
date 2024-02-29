@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 
-/* reset */
+/* BASIC RESET */
 
 *,
 *::after,
@@ -7,45 +8,50 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-/* variables */
+/* VARIABLES */
 
 :root {
-    /* color */
-
-    --darker-color: #2ab2af;
-    --lighter-color: #7ed1ce;
-
-    /* general */
-    
-    --paddings: 25px;
+    --CYAN: hsl(179, 62%, 43%);
+    --BRIGHT-YELLOW: hsl(71, 73%, 54%);
+    --LIGHT-GRAY: hsl(204, 43%, 93%);
+    --GRAYISH-BLUE: hsl(218, 22%, 67%); 
+    --LIGHTER-COLOR: #7ed1ce;
+    --PADDINGS: 25px;
 }
 
-/* general styles */
+/* GENERAL STYLES */
 
 html {
     font-size: 16px;
-    font-family: Georgia;
-    font-weight: 400;
+    background-color: var(--LIGHT-GRAY);
 }
 
 body {
-    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #card {
     box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, .35);
     border-radius: 5px;
-    /*overflow: hidden; */
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 635px;
+    width: 90%;
+    margin: auto;
 }
 
 #top-section {
     width: 100%;
     height: 45%;
-    padding: var(--paddings);
+    background: #fff;
+    padding: var(--PADDINGS);
 }
 
 #bottom-section {
@@ -57,13 +63,13 @@ body {
 }
 
 #bottom-left-section {
-    padding: var(--paddings);
-    background-color: var(--darker-color);
+    padding: var(--PADDINGS);
+    background-color: var(--CYAN);
 }
 
 #bottom-right-section {
-    padding: var(--paddings);
-    background-color: var(--lighter-color);
+    padding: var(--PADDINGS);
+    background-color: var(--LIGHTER-COLOR);
 }
 
 #top-section h2 {
@@ -134,17 +140,22 @@ ul {
     font-size: .8rem;
 }
 
+@media (max-width: 576px) {
+    #card {
+        margin: 2rem auto;
+    }
+}
+
+
 
 @media (min-width: 576px){
     #card {
-        width: 600px;
         height: 400px; 
     }
     #bottom-section{
         flex-direction: row;
     }
     #bottom-left-section, #bottom-right-section {
-        /*flex-basis: 50%; */
         flex-grow: 1;
     }
 }
