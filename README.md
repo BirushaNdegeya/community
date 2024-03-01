@@ -7,7 +7,7 @@
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://single-price-grid-component-dusky-three.vercel.app/)
 
 ## My process
 
@@ -18,13 +18,11 @@
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [HTML] ()
-- [CSS](https://nextjs.org)
-- [Styled Components](https://styled-components.com/) - For styles
+- For styles
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Completing the Single Price Grid Component challenge from Frontendmentor.io was a pivotal learning experience for me. It enabled me to delve into the intricacies of responsive design and effectively translate a Figma design into HTML & CSS code. This challenge not only honed my technical skills but also taught me how to think responsively while crafting designs. I'm grateful for the opportunity to grow through this project.
 
 To see how you can add code snippets, see below:
 
@@ -47,24 +45,14 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+I am transitioning towards building all of my websites using the React JavaScript Library, while adhering to the Google Material Design principles. This shift enables me to leverage the powerful capabilities of React for efficient development, while also ensuring that my designs align with the established usability and aesthetic standards advocated by Google's Material Design principles.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@BirushaNdegeya](https://www.frontendmentor.io/profile/BirushaNdegeya)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [birushandegeya](https://myportfolio-chi-mocha.vercel.app/)
+- Frontend Mentor - [@BirushaNdegeya](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@BirushaNdegeya](https://twitter.com/BNdegeya62741)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I am deeply grateful to Zack from Free Code Camp for his invaluable guidance throughout this project. His expertise not only helped me navigate through the challenges but also taught me the intricacies of creating responsive designs. Zack's mentorship was instrumental in organizing this project effectively, and I am truly thankful for the knowledge and skills he imparted.
