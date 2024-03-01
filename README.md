@@ -24,24 +24,31 @@
 
 Completing the Single Price Grid Component challenge from Frontendmentor.io was a pivotal learning experience for me. It enabled me to delve into the intricacies of responsive design and effectively translate a Figma design into HTML & CSS code. This challenge not only honed my technical skills but also taught me how to think responsively while crafting designs. I'm grateful for the opportunity to grow through this project.
 
-To see how you can add code snippets, see below:
-
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./assets/favicon-32x32.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link name="description" content="Frontend mentor io birusha ndegeya solution" />
+    <meta name="author" content="Birusha Ndegeya"/>
+    <title>Join Our Community</title>
+</head>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@media (min-width: 576px){
+    #card {
+        height: 400px; 
+    }
+    #bottom-section{
+        flex-direction: row;
+    }
+    #bottom-left-section, #bottom-right-section {
+        flex-grow: 1;
+    }
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
 
 ### Continued development
 

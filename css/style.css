@@ -141,12 +141,13 @@ ul {
     font-size: .8rem;
 }
 
+/* MEDIA QUERIES */
+
 @media (max-width: 576px) {
     #card {
         margin: 2rem auto;
     }
 }
-
 
 
 @media (min-width: 576px){
